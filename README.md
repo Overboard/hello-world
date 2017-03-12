@@ -1,3 +1,3 @@
 # hello-world
 tutorial repo
-download desktop.github.com
+1. download desktop.github.com
