@@ -1,9 +1,9 @@
 **discoverhue**
 ===============
 
-|The MIT License|
-
     Discovery of hue bridges per the Philips design guide.
+
+|The MIT License|
 
 Use discoverhue to find the IP addresses of all hue bridges on the LAN.
 If previously known bridge serial numbers are provided then the returned
