@@ -1,5 +1,7 @@
+
 # **discoverhue**
-Discovery of hue bridges per the Philips design guide.
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+> Discovery of hue bridges per the Philips design guide.
 
 Use discoverhue to find the IP addresses of all hue bridges on the LAN. If 
 previously known bridge serial numbers are provided then the returned info will
@@ -11,6 +13,10 @@ Currently, discoverhue implements options one and two of the Hue Bridge
 Discovery Guide available with registration at 
 [MeetHue](https://developers.meethue.com/application-design-guidance).
 
+## Installation
+```shell
+pip install discoverhue
+```
 ## Examples
 Execute discovery and return a dictionary of all found bridges:
 ```python
@@ -57,5 +63,4 @@ Released.
 https://gist.github.com/dankrause/6000248
 * Python3 support from @voltagex at
 https://github.com/voltagex/junkcode/blob/master/Python/dlna_downloader/ssdp.py
-* Server field addition and Win32 @Overboard at
-https://github.com/Overboard/discoverhue/blob/master/discoverhue/ssdp.py
+* Server field addition and Win32 @Overboard at https://github.com/Overboard/discoverhue/blob/master/discoverhue/ssdp.py
